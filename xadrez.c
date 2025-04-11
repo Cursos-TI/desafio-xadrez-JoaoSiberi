@@ -2,34 +2,29 @@
 
 
 int main() {
-    // Declaração de variável
-    int t = 1;
-
-    //Definição do Movimento da Torre
-    printf("Torre:\n\n");
-
-    while (t < 6)
-    {
-        printf("Direita\n");
-        t++;
-    }
-    //Declaração de Variável 
-    int b = 1;
-
-    //Definição do Movimento do Bispo
-    printf("\nBispo:\n\n");
-    do
-    {
-        printf("Cima, Direita\n");
-        b++;
-    } while (b < 6);
+ 
+    for (int i = 1; i < 2; i++)
+    { for (int j = 0; i < 3; i++) {
     
-    //Definição do Movimento da Rainha
-    printf("\nRainha:\n\n");
+        printf("Baixo\n");
+    }
+    
+    int x = 1;
+    int y = 1;
 
-    for ( int r = 1; r < 9; r++)
+
+    while (x < 2)
     {
-        printf("Esquerda\n");
+        x++;
+        while (y < 2)
+        {
+            printf("Esquerda\n");
+            y++; 
+        }
+        
+    }
+    
+        
     }
     
 

@@ -4,11 +4,12 @@
 int main() {
  
     for (int i = 1; i < 2; i++)
-    { for (int j = 0; i < 3; i++) {
-    
+    { for (int j = 0; i < 3; i++) 
+        {
         printf("Baixo\n");
-    }
+        }
     
+    }
     int x = 1;
     int y = 1;
 
@@ -25,7 +26,7 @@ int main() {
     }
     
         
-    }
+    
     
 
     return 0;
